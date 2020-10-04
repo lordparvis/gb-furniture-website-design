@@ -12,6 +12,21 @@ color: limegreen;
 li{
 list-style-type: none;
 }
+p::first-letter{
+    text-transform:capitalize;
+}
+.product-image{
+    outline: 3px solid red;
+}
+.product-image:hover{
+    outline: none;
+}
+table{
+    border: 1px solid blue;
+}
+td{
+    border: 1px solid cornflowerblue;
+}
 .item-headers{
     color:black;
     font-size: 18px;
@@ -43,7 +58,9 @@ height: 15px;
 .message-form input[type="text"]{
     color:blue;
     font-size: 12px;
-
+}
+.message-form input::first-letter{
+    text-transform: capitalize;
 }
 .message-form textarea{
     color:royalblue;

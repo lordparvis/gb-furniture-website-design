@@ -3,7 +3,7 @@ body{
 }
 #store-logo{
     height: 120px;
-    width: 160px;
+    width: 140px;
 }
 a{
 font-size: 24px;
@@ -59,7 +59,7 @@ height: 15px;
     color:blue;
     font-size: 12px;
 }
-.message-form input::first-letter{
+.message-form:first-child{
     text-transform: capitalize;
 }
 .message-form textarea{
